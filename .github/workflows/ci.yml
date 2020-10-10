@@ -1,0 +1,34 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  validate:
+    name: Validate
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Read .nvmrc
+      id: nvm
+      run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
+
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ steps.nvm.outputs.NODE_VERSION }}
+
+    - name: Install and link dependencies
+      run: yarn
+
+    - name: Run linter
+      run: yarn lint:ci
+
+    - name: Run tests
+      run: yarn test:ci
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1
+      with:
+        file: ./coverage/coverage-final.json
+        token: ${{ secrets.CODECOV_TOKEN }}

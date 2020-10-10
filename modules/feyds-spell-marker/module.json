@@ -1,0 +1,11 @@
+{
+  "name": "feyds-spell-marker",
+  "title": "Feyd's Spell Marker",
+  "description": "Hex things",
+  "author": "Dane Thurber <dane.thurber@gmail.com>",
+  "version": "0.0.2",
+  "url": "https://github.com/danethurber/hephaestus",
+  "manifest": "https://raw.githubusercontent.com/danethurber/hephaestus/main/modules/feyds-spell-marker/module.json",
+  "download": "https://github.com/danethurber/hephaestus/releases/download/feyds-spell-marker@0.0.6/feyds-spell-marker.zip",
+  "scripts": ["./dist/main.js"]
+}

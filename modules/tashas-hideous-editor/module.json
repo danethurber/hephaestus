@@ -1,0 +1,11 @@
+{
+  "name": "tashas-hideous-editor",
+  "title": "Tasha's Hideous Editor",
+  "description": "FoundryVTT code editor",
+  "author": "Dane Thurber <dane.thurber@gmail.com>",
+  "version": "0.0.2",
+  "url": "https://github.com/danethurber/hephaestus",
+  "manifest": "https://raw.githubusercontent.com/danethurber/hephaestus/main/modules/tashas-hideous-editor/module.json",
+  "download": "https://github.com/danethurber/hephaestus/releases/download/tashas-hideous-editor@0.0.6/tashas-hideous-editor.zip",
+  "scripts": ["./dist/main.js"]
+}

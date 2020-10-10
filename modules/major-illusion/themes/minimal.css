@@ -1,0 +1,91 @@
+#logo {
+  display: none;
+}
+
+#controls {
+  top: 0;
+}
+
+#controls .scene-control,
+#controls .control-tool {
+  background-color: #4c4c4c;
+  box-shadow: none;
+}
+
+#controls .control-tool.toggle {
+  background: rgba(30, 0, 60, 1) !important;
+  box-shadow: none;
+}
+
+#controls .control-tool.toggle {
+  background: rgba(60, 0, 120, 1) !important;
+  box-shadow: 0 0 5px #9b8dff;
+}
+
+#navigation {
+  top: 15px;
+  left: 110px;
+}
+
+#players {
+  bottom: 10px;
+  box-shadow: none;
+}
+
+#sidebar.app {
+  background-color: #4c4c4c;
+  border-color: #4c4c4c;
+  right: 0 !important;
+  top: 0 !important;
+  height: 100vh !important;
+  border-radius: 0;
+}
+
+#sidebar.app {
+  box-shadow: none;
+}
+
+#sidebar.app.collapsed .tabs {
+  flex: 1;
+  flex-direction: column;
+}
+#sidebar.app.collapsed .collapse {
+  margin-top: auto;
+}
+
+[data-tab='chat'] > * {
+  order: 1;
+}
+
+#chat-controls {
+  order: 2;
+  margin-bottom: 8px;
+}
+
+#chat-controls .roll-type-select label {
+  display: none;
+}
+
+#chat-controls div.roll-type-select {
+  padding-top: 4px;
+}
+#chat-controls div.roll-type-select select {
+  border: 1px solid #000;
+  width: 100% !important;
+  top: 0;
+}
+#chat-message {
+  border-radius: 5px;
+}
+
+#chat-controls .control-buttons {
+  align-items: center;
+  display: flex;
+  flex-basis: 48px;
+  justify-content: center;
+  padding-top: 2px;
+  text-align: center;
+}
+#chat-controls i.fas {
+  font-size: 14px;
+}

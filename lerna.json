@@ -1,0 +1,20 @@
+{
+  "npmClient": "yarn",
+  "packages": ["shared/*", "modules/*"],
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "ignore": ["shared/*"],
+      "message": "chore: version bump"
+    }
+  },
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__specs__/**",
+    "**/*.spec.*",
+    "**/*.md"
+  ],
+  "useWorkspaces": true
+}

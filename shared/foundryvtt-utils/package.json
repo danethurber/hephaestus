@@ -1,0 +1,14 @@
+{
+  "name": "foundryvtt-utils",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

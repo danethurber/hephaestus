@@ -1,0 +1,11 @@
+{
+  "name": "major-illusion",
+  "title": "Major Illusion",
+  "description": "Custom stylesheets",
+  "author": "Dane Thurber <dane.thurber@gmail.com>",
+  "version": "0.0.6",
+  "url": "https://github.com/danethurber/hephaestus",
+  "manifest": "https://raw.githubusercontent.com/danethurber/hephaestus/main/modules/major-illusion/module.json",
+  "download": "https://github.com/danethurber/hephaestus/releases/download/major-illusion@0.0.6/major-illusion.zip",
+  "scripts": ["./dist/main.js"]
+}

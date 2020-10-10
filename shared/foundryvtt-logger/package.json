@@ -1,0 +1,11 @@
+{
+  "name": "foundryvtt-logger",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "types": "dist/index.d.ts"
+}
