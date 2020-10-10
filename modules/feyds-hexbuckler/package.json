@@ -12,6 +12,7 @@
   "dependencies": {
     "foundryvtt-logger": "*",
     "foundryvtt-utils": "*",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "replace-in-files-cli": "^1.0.0"
   }
 }

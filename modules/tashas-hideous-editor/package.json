@@ -13,6 +13,7 @@
   "dependencies": {
     "ace-builds": "ajaxorg/ace-builds",
     "foundryvtt-logger": "*",
-    "foundryvtt-utils": "*"
+    "foundryvtt-utils": "*",
+    "replace-in-files-cli": "^1.0.0"
   }
 }

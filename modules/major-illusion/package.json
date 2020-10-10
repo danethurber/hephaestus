@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "foundryvtt-logger": "*",
-    "foundryvtt-utils": "*"
+    "foundryvtt-utils": "*",
+    "replace-in-files-cli": "^1.0.0"
   }
 }
