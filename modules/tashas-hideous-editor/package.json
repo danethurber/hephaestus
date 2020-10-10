@@ -1,6 +1,6 @@
 {
   "name": "tashas-hideous-editor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "FoundryVTT code editor",
   "private": true,
   "main": "dist/index.js",
@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "ace-builds": "ajaxorg/ace-builds",
-    "foundryvtt-logger": "*",
-    "foundryvtt-utils": "*",
+    "foundryvtt-logger": "^0.1.0",
+    "foundryvtt-utils": "^0.1.0",
     "replace-in-files-cli": "^1.0.0"
   }
 }

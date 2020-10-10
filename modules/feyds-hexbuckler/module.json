@@ -3,9 +3,9 @@
   "title": "Feyd's HexBuckler",
   "description": "Macros to streamline playing a hexblade swashbucker",
   "author": "Dane Thurber <dane.thurber@gmail.com>",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "url": "https://github.com/danethurber/hephaestus",
   "manifest": "https://raw.githubusercontent.com/danethurber/hephaestus/main/modules/feyds-hexbuckler/module.json",
-  "download": "https://github.com/danethurber/hephaestus/releases/download/feyds-hexbuckler@0.0.6/feyds-hexbuckler.zip",
+  "download": "https://github.com/danethurber/hephaestus/releases/download/feyds-hexbuckler@0.1.0/feyds-hexbuckler.zip",
   "scripts": ["./dist/main.js"]
 }

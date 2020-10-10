@@ -1,6 +1,6 @@
 {
   "name": "feyds-hexbuckler",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "version": "replace-in-files --regex='\\d+\\.\\d+\\.\\d+' --replacement=$npm_package_version module.json && git add ."
   },
   "dependencies": {
-    "foundryvtt-logger": "*",
-    "foundryvtt-utils": "*",
+    "foundryvtt-logger": "^0.1.0",
+    "foundryvtt-utils": "^0.1.0",
     "lodash": "^4.17.20",
     "replace-in-files-cli": "^1.0.0"
   }
