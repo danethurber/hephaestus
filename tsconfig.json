@@ -8,6 +8,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
+    "skipLibCheck": true,
     "resolveJsonModule": true,
     "types": ["foundry-pc-types", "node", "jest", "resize-observer-browser"]
   }
