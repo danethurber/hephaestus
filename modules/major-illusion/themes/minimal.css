@@ -30,6 +30,11 @@
 #players {
   bottom: 10px;
   box-shadow: none;
+  display: none;
+}
+
+[data-mi-players-hide] #hotbar {
+  left: 20px;
 }
 
 #sidebar.app {
