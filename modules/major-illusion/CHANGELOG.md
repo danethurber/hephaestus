@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/danethurber/hephaestus/compare/major-illusion@0.1.0...major-illusion@0.2.0) (2021-06-25)
+
+### Features
+
+- **major-illusion:** show/hide player panel ([ed1eb92](https://github.com/danethurber/hephaestus/commit/ed1eb92bccd3c158e267a26b86af3e17de7bcc81))
+
 # 0.1.0 (2020-10-10)
 
 **Note:** Version bump only for package major-illusion
